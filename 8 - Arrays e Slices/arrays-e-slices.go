@@ -33,4 +33,11 @@ func main() {
 	arr2[1] = "Posição alterada"
 	fmt.Println(slice2)
 
+	// ARRAYS INTERNOS
+	fmt.Println("ARRAYS INTERNOS")
+	slice3 := make([]float32, 10, 15)
+	fmt.Println(slice3)
+	fmt.Println(len(slice3)) // Função utilizada para ver o tamanho do Slice
+	fmt.Println(cap(slice3)) // Função utilizada para ver a capacidade do Slice
+
 }
